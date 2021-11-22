@@ -3,4 +3,4 @@ This directory contains lab notebooks demonstrating data loading and data prepar
 
 ### Data preparation
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/rk2896/MLOps_project/blob/main/Data/data%20preparation.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/rk2896/MLOps_project/blob/main/Data/data_preparation.ipynb)
