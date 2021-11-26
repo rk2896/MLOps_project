@@ -1,0 +1,34 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-11-26T20:44:59.452510",
+    "startedAt": "2021-11-26T20:44:56.013069",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9033",
+        "--control=9031",
+        "--hb=9030",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"c9bb43d3-1764-41b2-b726-3ba537cb0aed\"",
+        "--shell=9032",
+        "--transport=\"tcp\"",
+        "--iopub=9034",
+        "--f=C:\\Users\\ADMIN\\AppData\\Local\\Temp\\tmp-2788uyJWXOmzrTn8.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/rk2896/MLOps_project.git",
+        "commit": "2d0a22164aed89165167e71ef956ee135cf436d5"
+    },
+    "email": "rahav.manoharan20@iimb.ac.in",
+    "root": "C:/Users/ADMIN/Desktop/Rahav/IIMB/Term5/MLOps/project/MLOps_project",
+    "host": "LAPTOP-GES64T0T",
+    "username": "ADMIN",
+    "executable": "C:\\Users\\ADMIN\\.conda\\envs\\mlopslab\\python.exe"
+}
