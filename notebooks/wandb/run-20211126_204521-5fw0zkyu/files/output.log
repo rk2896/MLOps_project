@@ -1,0 +1,13 @@
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting dt_demo_1.
+[34m[1mwandb[39m[22m: Logged feature importances.
+[34m[1mwandb[39m[22m: Logged confusion matrix.
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m X contains values that are not numbers. Please vectorize, label encode or one hot encode X and call the plotting function again.
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m X_test contains values that are not numbers. Please vectorize, label encode or one hot encode X_test and call the plotting function again.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged class proportions.
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m X contains values that are not numbers. Please vectorize, label encode or one hot encode X and call the plotting function again.
+[34m[1mwandb[39m[22m: Logged calibration curve.
+[34m[1mwandb[39m[22m: Logged roc curve.
+[34m[1mwandb[39m[22m: Logged precision recall curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
