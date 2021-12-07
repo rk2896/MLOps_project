@@ -26,4 +26,4 @@
 [![5.0-model_monitoring](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rk2896/MLOps_project/blob/main/notebooks/5.0-model_monitoring.ipynb)
 
 #### Notebook to interpret features in model without *Customer Type* feature
-[![5.1-interpretation_model_without_feature](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rk2896/MLOps_project/blob/main/notebooks/5.1-interpretation_model_without_feature.ipynb)
+[![5.1-interpretation_model_without_type_feature](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rk2896/MLOps_project/blob/main/notebooks/5.1-interpretation_model_without_type_feature.ipynb)
