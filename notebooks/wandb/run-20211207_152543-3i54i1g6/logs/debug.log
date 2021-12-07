@@ -1,0 +1,205 @@
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_setup.py:_flush():71] setting env: {'api_key': '0f579240b99e6ed291924359c5de323258326760'}
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_init.py:_log_setup():357] Logging user logs to c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_152543-3i54i1g6\logs\debug.log
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_init.py:_log_setup():358] Logging internal logs to c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_152543-3i54i1g6\logs\debug-internal.log
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_init.py:_jupyter_setup():307] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000020CEE0F3310>
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_init.py:init():390] calling init triggers
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {}
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [wandb_init.py:init():435] starting backend
+2021-12-07 15:25:43,952 INFO    MainThread:1712 [backend.py:_multiprocessing_setup():94] multiprocessing start_methods=spawn, using: spawn
+2021-12-07 15:25:43,960 INFO    MainThread:1712 [backend.py:ensure_launched():198] starting backend process...
+2021-12-07 15:25:44,056 INFO    MainThread:1712 [backend.py:ensure_launched():203] started backend process with pid: 21304
+2021-12-07 15:25:44,056 INFO    MainThread:1712 [wandb_init.py:init():444] backend started and connected
+2021-12-07 15:25:44,072 INFO    MainThread:1712 [wandb_run.py:_label_probe_notebook():866] probe notebook
+2021-12-07 15:25:44,072 INFO    MainThread:1712 [wandb_run.py:_label_probe_notebook():876] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-12-07 15:25:44,072 INFO    MainThread:1712 [wandb_init.py:init():503] updated telemetry
+2021-12-07 15:25:44,128 INFO    MainThread:1712 [wandb_init.py:init():533] communicating current version
+2021-12-07 15:25:45,938 INFO    MainThread:1712 [wandb_init.py:init():538] got version response upgrade_message: "wandb version 0.12.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-12-07 15:25:45,938 INFO    MainThread:1712 [wandb_init.py:init():548] communicating run to backend with 30 second timeout
+2021-12-07 15:25:46,348 INFO    MainThread:1712 [wandb_init.py:init():576] starting run threads in backend
+2021-12-07 15:25:47,495 INFO    MainThread:1712 [wandb_run.py:_console_start():1693] atexit reg
+2021-12-07 15:25:47,495 INFO    MainThread:1712 [wandb_run.py:_redirect():1567] redirect: SettingsConsole.WRAP
+2021-12-07 15:25:47,495 INFO    MainThread:1712 [wandb_run.py:_redirect():1604] Wrapping output streams.
+2021-12-07 15:25:47,511 INFO    MainThread:1712 [wandb_run.py:_redirect():1628] Redirects installed.
+2021-12-07 15:25:47,511 INFO    MainThread:1712 [wandb_init.py:init():603] run started, returning control to user process
+2021-12-07 15:25:47,978 INFO    MainThread:1712 [wandb_run.py:_config_callback():911] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'key': 'confusion_matrix', 'x-axis': '_step'}} None
+2021-12-07 15:25:49,563 INFO    MainThread:1712 [wandb_run.py:_config_callback():911] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'key': 'class_proportions', 'x-axis': '_step'}} None
+2021-12-07 15:25:51,713 INFO    MainThread:1712 [wandb_run.py:_config_callback():911] config_cb ('_wandb', 'viz', 'roc') {'id': 'wandb/roc/v1', 'historyFieldSettings': {'key': 'roc', 'x-axis': '_step'}} None
+2021-12-07 15:25:53,129 INFO    MainThread:1712 [wandb_run.py:_config_callback():911] config_cb ('_wandb', 'viz', 'precision_recall') {'id': 'wandb/pr_curve/v1', 'historyFieldSettings': {'key': 'precision_recall', 'x-axis': '_step'}} None
+2021-12-07 15:25:54,080 INFO    MainThread:1712 [wandb_run.py:finish():1347] finishing run rahav-manoharan/mlops-project-new/3i54i1g6
+2021-12-07 15:25:54,080 INFO    MainThread:1712 [jupyter.py:save_history():429] not saving jupyter history
+2021-12-07 15:25:54,080 INFO    MainThread:1712 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-12-07 15:25:54,080 INFO    MainThread:1712 [wandb_init.py:_jupyter_teardown():289] cleaning up jupyter logic
+2021-12-07 15:25:54,080 INFO    MainThread:1712 [wandb_run.py:_atexit_cleanup():1663] got exitcode: 0
+2021-12-07 15:25:54,080 INFO    MainThread:1712 [wandb_run.py:_restore():1635] restore
+2021-12-07 15:25:59,176 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: None
+2021-12-07 15:26:02,747 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 3
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 489745
+  total_bytes: 489745
+}
+
+2021-12-07 15:26:03,394 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 491008
+  total_bytes: 491008
+}
+
+2021-12-07 15:26:03,722 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 491008
+  total_bytes: 491008
+}
+
+2021-12-07 15:26:04,483 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 491008
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:04,592 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 491008
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:04,702 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 491008
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:04,811 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 491008
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:04,920 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 491008
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:05,030 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:05,141 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:05,242 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:05,346 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:05,478 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:05,588 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:06,190 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+
+2021-12-07 15:26:06,629 INFO    MainThread:1712 [wandb_run.py:_wait_for_finish():1793] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 4
+  artifact_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 499611
+  total_bytes: 499611
+}
+local_info {
+}
+
+2021-12-07 15:26:07,764 INFO    MainThread:1712 [wandb_run.py:_append_history():2011] rendering history
+2021-12-07 15:26:07,764 INFO    MainThread:1712 [wandb_run.py:_append_summary():1966] rendering summary
+2021-12-07 15:26:07,764 INFO    MainThread:1712 [wandb_run.py:_append_files():2061] logging synced files

@@ -1,0 +1,255 @@
+2021-12-07 15:38:04,448 INFO    MainThread:13684 [internal.py:wandb_internal():88] W&B internal server running at pid: 13684, started at: 2021-12-07 15:38:04.448476
+2021-12-07 15:38:04,448 INFO    WriterThread:13684 [datastore.py:open_for_write():77] open: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\run-15djww30.wandb
+2021-12-07 15:38:04,448 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: check_version
+2021-12-07 15:38:04,448 DEBUG   SenderThread:13684 [sender.py:send():185] send: header
+2021-12-07 15:38:04,448 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: check_version
+2021-12-07 15:38:04,596 DEBUG   SenderThread:13684 [sender.py:send():185] send: run
+2021-12-07 15:38:05,020 INFO    SenderThread:13684 [dir_watcher.py:__init__():169] watching files in: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files
+2021-12-07 15:38:05,020 INFO    SenderThread:13684 [sender.py:_start_run_threads():768] run started: 15djww30 with start time 1638871682
+2021-12-07 15:38:05,020 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:05,020 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: run_start
+2021-12-07 15:38:05,020 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:05,948 DEBUG   HandlerThread:13684 [meta.py:__init__():40] meta init
+2021-12-07 15:38:05,948 DEBUG   HandlerThread:13684 [meta.py:__init__():54] meta init done
+2021-12-07 15:38:05,948 DEBUG   HandlerThread:13684 [meta.py:probe():212] probe
+2021-12-07 15:38:06,020 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:06,028 DEBUG   HandlerThread:13684 [meta.py:_setup_git():202] setup git
+2021-12-07 15:38:06,132 DEBUG   HandlerThread:13684 [meta.py:_setup_git():209] setup git done
+2021-12-07 15:38:06,132 DEBUG   HandlerThread:13684 [meta.py:_save_pip():58] save pip
+2021-12-07 15:38:06,132 DEBUG   HandlerThread:13684 [meta.py:_save_pip():72] save pip done
+2021-12-07 15:38:06,132 DEBUG   HandlerThread:13684 [meta.py:_save_conda():79] save conda
+2021-12-07 15:38:06,149 ERROR   HandlerThread:13684 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\.conda\envs\mlopslab\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\ADMIN\.conda\envs\mlopslab\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\ADMIN\.conda\envs\mlopslab\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\ADMIN\.conda\envs\mlopslab\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-12-07 15:38:06,149 DEBUG   HandlerThread:13684 [meta.py:_save_conda():87] save conda done
+2021-12-07 15:38:06,149 DEBUG   HandlerThread:13684 [meta.py:probe():250] probe done
+2021-12-07 15:38:06,165 DEBUG   SenderThread:13684 [sender.py:send():185] send: files
+2021-12-07 15:38:06,165 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-metadata.json with policy now
+2021-12-07 15:38:06,229 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-07 15:38:06,229 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: stop_status
+2021-12-07 15:38:06,559 DEBUG   SenderThread:13684 [sender.py:send():185] send: run
+2021-12-07 15:38:06,735 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: log_artifact
+2021-12-07 15:38:06,924 INFO    SenderThread:13684 [sender.py:send_run():666] updated run: 15djww30
+2021-12-07 15:38:06,924 DEBUG   SenderThread:13684 [sender.py:send():185] send: history
+2021-12-07 15:38:06,924 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:06,924 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:06,924 DEBUG   SenderThread:13684 [sender.py:send():185] send: config
+2021-12-07 15:38:06,924 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: log_artifact
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\config.yaml
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\requirements.txt
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\feature_importances_1_3527607989bd76067007.table.json
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\output.log
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\conda-environment.yaml
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-metadata.json
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table
+2021-12-07 15:38:07,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media
+2021-12-07 15:38:07,340 INFO    Thread-17 :13684 [upload_job.py:push():137] Uploaded file C:\Users\ADMIN\AppData\Local\Temp\tmpeasi_se7wandb\pxfaagc0-wandb-metadata.json
+2021-12-07 15:38:07,724 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: log_artifact
+2021-12-07 15:38:08,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\confusion_matrix_2_91f8ebb96ad01ad439a4.table.json
+2021-12-07 15:38:08,036 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table
+2021-12-07 15:38:09,038 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\output.log
+2021-12-07 15:38:09,294 INFO    Thread-19 :13684 [upload_job.py:push():95] Uploaded file C:\Users\ADMIN\.cache\wandb\artifacts\obj\md5\36\913821024dcb76fb54c1a0d6d714c7
+2021-12-07 15:38:09,294 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: log_artifact
+2021-12-07 15:38:10,051 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\class_proportions_4_ebc9c37d478921f6aa30.table.json
+2021-12-07 15:38:10,051 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table
+2021-12-07 15:38:10,619 INFO    SenderThread:13684 [sender.py:send_request_log_artifact():929] logged artifact run-15djww30-feature_importances - {'id': 'QXJ0aWZhY3Q6NDYwOTQxNjc=', 'digest': '96542a26b5e02f7a6c1b5170513e3fd1', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc1MzYyMTg=', 'latestArtifact': None}, 'version': 'latest'}
+2021-12-07 15:38:10,619 DEBUG   SenderThread:13684 [sender.py:send():185] send: files
+2021-12-07 15:38:10,619 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file media\table\feature_importances_1_3527607989bd76067007.table.json with policy now
+2021-12-07 15:38:10,619 DEBUG   SenderThread:13684 [sender.py:send():185] send: history
+2021-12-07 15:38:10,619 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:10,627 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:10,627 DEBUG   SenderThread:13684 [sender.py:send():185] send: config
+2021-12-07 15:38:10,627 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: log_artifact
+2021-12-07 15:38:10,971 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: log_artifact
+2021-12-07 15:38:11,062 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:11,062 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\output.log
+2021-12-07 15:38:11,062 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\roc_5_d4bbe1ab515defd1276a.table.json
+2021-12-07 15:38:11,062 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table
+2021-12-07 15:38:11,521 INFO    Thread-20 :13684 [upload_job.py:push():137] Uploaded file C:\Users\ADMIN\AppData\Local\Temp\tmpeasi_se7wandb\2l5b9r80-media/table/feature_importances_1_3527607989bd76067007.table.json
+2021-12-07 15:38:12,226 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: log_artifact
+2021-12-07 15:38:12,695 INFO    Thread-22 :13684 [upload_job.py:push():95] Uploaded file C:\Users\ADMIN\.cache\wandb\artifacts\obj\md5\f0\a880e5d85f9a25849040385fc1b551
+2021-12-07 15:38:13,067 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\output.log
+2021-12-07 15:38:13,067 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\precision_recall_6_406932d6510339e5d061.table.json
+2021-12-07 15:38:13,067 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table
+2021-12-07 15:38:13,853 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:14,083 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\output.log
+2021-12-07 15:38:14,122 INFO    SenderThread:13684 [sender.py:send_request_log_artifact():929] logged artifact run-15djww30-confusion_matrix - {'id': 'QXJ0aWZhY3Q6NDYwOTQxODI=', 'digest': '9a569c9a19177e06a8c73bddf2db924d', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc1MzYyMjM=', 'latestArtifact': None}, 'version': 'latest'}
+2021-12-07 15:38:14,122 DEBUG   SenderThread:13684 [sender.py:send():185] send: files
+2021-12-07 15:38:14,122 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file media\table\confusion_matrix_2_91f8ebb96ad01ad439a4.table.json with policy now
+2021-12-07 15:38:14,122 DEBUG   SenderThread:13684 [sender.py:send():185] send: history
+2021-12-07 15:38:14,130 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:14,130 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:14,135 DEBUG   SenderThread:13684 [sender.py:send():185] send: history
+2021-12-07 15:38:14,135 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:14,137 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:14,137 DEBUG   SenderThread:13684 [sender.py:send():185] send: config
+2021-12-07 15:38:14,138 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: log_artifact
+2021-12-07 15:38:15,052 INFO    Thread-23 :13684 [upload_job.py:push():137] Uploaded file C:\Users\ADMIN\AppData\Local\Temp\tmpeasi_se7wandb\2uc3mvf0-media/table/confusion_matrix_2_91f8ebb96ad01ad439a4.table.json
+2021-12-07 15:38:15,094 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:16,286 INFO    Thread-25 :13684 [upload_job.py:push():95] Uploaded file C:\Users\ADMIN\.cache\wandb\artifacts\obj\md5\df\fd6bb5ab3bc84f16932cda446bfea9
+2021-12-07 15:38:17,605 INFO    SenderThread:13684 [sender.py:send_request_log_artifact():929] logged artifact run-15djww30-class_proportions - {'id': 'QXJ0aWZhY3Q6NDYwOTQyMDE=', 'digest': '8f190a4198f089f7ea5991c6deaff700', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc1MzYyMjY=', 'latestArtifact': None}, 'version': 'latest'}
+2021-12-07 15:38:17,605 DEBUG   SenderThread:13684 [sender.py:send():185] send: files
+2021-12-07 15:38:17,605 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file media\table\class_proportions_4_ebc9c37d478921f6aa30.table.json with policy now
+2021-12-07 15:38:17,605 DEBUG   SenderThread:13684 [sender.py:send():185] send: history
+2021-12-07 15:38:17,605 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:17,614 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:17,615 DEBUG   SenderThread:13684 [sender.py:send():185] send: config
+2021-12-07 15:38:17,615 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: log_artifact
+2021-12-07 15:38:18,118 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:18,469 INFO    Thread-26 :13684 [upload_job.py:push():137] Uploaded file C:\Users\ADMIN\AppData\Local\Temp\tmpeasi_se7wandb\3l5bqv9f-media/table/class_proportions_4_ebc9c37d478921f6aa30.table.json
+2021-12-07 15:38:18,966 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:19,733 INFO    Thread-28 :13684 [upload_job.py:push():95] Uploaded file C:\Users\ADMIN\.cache\wandb\artifacts\obj\md5\7b\d5fc15c7789016c8b0bb8acfa6390f
+2021-12-07 15:38:21,305 INFO    SenderThread:13684 [sender.py:send_request_log_artifact():929] logged artifact run-15djww30-roc - {'id': 'QXJ0aWZhY3Q6NDYwOTQyMTk=', 'digest': 'ab49a11f5e542266ca1cd938484975c8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc1MzYyMjc=', 'latestArtifact': None}, 'version': 'latest'}
+2021-12-07 15:38:21,305 DEBUG   SenderThread:13684 [sender.py:send():185] send: files
+2021-12-07 15:38:21,305 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file media\table\roc_5_d4bbe1ab515defd1276a.table.json with policy now
+2021-12-07 15:38:21,305 DEBUG   SenderThread:13684 [sender.py:send():185] send: history
+2021-12-07 15:38:21,305 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:21,305 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:21,305 DEBUG   SenderThread:13684 [sender.py:send():185] send: config
+2021-12-07 15:38:21,313 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: log_artifact
+2021-12-07 15:38:22,156 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:22,165 INFO    Thread-29 :13684 [upload_job.py:push():137] Uploaded file C:\Users\ADMIN\AppData\Local\Temp\tmpeasi_se7wandb\1sq4nj7k-media/table/roc_5_d4bbe1ab515defd1276a.table.json
+2021-12-07 15:38:23,496 INFO    Thread-31 :13684 [upload_job.py:push():95] Uploaded file C:\Users\ADMIN\.cache\wandb\artifacts\obj\md5\a8\3288e387a00ad11779427d8d16023b
+2021-12-07 15:38:24,075 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:25,071 INFO    SenderThread:13684 [sender.py:send_request_log_artifact():929] logged artifact run-15djww30-precision_recall - {'id': 'QXJ0aWZhY3Q6NDYwOTQyNDI=', 'digest': 'dfcb6eb8eb10a971597e72c52b794581', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc1MzYyMjg=', 'latestArtifact': None}, 'version': 'latest'}
+2021-12-07 15:38:25,071 DEBUG   SenderThread:13684 [sender.py:send():185] send: files
+2021-12-07 15:38:25,071 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file media\table\precision_recall_6_406932d6510339e5d061.table.json with policy now
+2021-12-07 15:38:25,072 DEBUG   SenderThread:13684 [sender.py:send():185] send: history
+2021-12-07 15:38:25,072 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:25,074 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:25,074 DEBUG   SenderThread:13684 [sender.py:send():185] send: telemetry
+2021-12-07 15:38:25,074 DEBUG   SenderThread:13684 [sender.py:send():185] send: exit
+2021-12-07 15:38:25,074 INFO    SenderThread:13684 [sender.py:send_exit():317] handling exit code: 0
+2021-12-07 15:38:25,074 INFO    SenderThread:13684 [sender.py:send_exit():319] handling runtime: 8
+2021-12-07 15:38:25,074 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:25,074 INFO    SenderThread:13684 [sender.py:send_exit():329] send defer
+2021-12-07 15:38:25,074 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:25,074 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:25,074 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:25,074 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:25,074 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 0
+2021-12-07 15:38:25,074 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:25,074 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 0
+2021-12-07 15:38:25,074 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 1
+2021-12-07 15:38:25,074 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:25,074 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 1
+2021-12-07 15:38:25,170 INFO    Thread-12 :13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:25,529 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:25,529 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:25,529 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 1
+2021-12-07 15:38:25,529 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 2
+2021-12-07 15:38:25,529 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:25,529 DEBUG   SenderThread:13684 [sender.py:send():185] send: stats
+2021-12-07 15:38:25,537 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:25,537 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 2
+2021-12-07 15:38:25,537 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:25,537 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 2
+2021-12-07 15:38:25,537 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 3
+2021-12-07 15:38:25,537 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:25,537 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 3
+2021-12-07 15:38:25,537 DEBUG   SenderThread:13684 [sender.py:send():185] send: summary
+2021-12-07 15:38:25,537 INFO    SenderThread:13684 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-12-07 15:38:25,537 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:25,537 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 3
+2021-12-07 15:38:25,537 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 4
+2021-12-07 15:38:25,537 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:25,537 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 4
+2021-12-07 15:38:25,537 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:25,537 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 4
+2021-12-07 15:38:25,652 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:25,902 INFO    Thread-32 :13684 [upload_job.py:push():137] Uploaded file C:\Users\ADMIN\AppData\Local\Temp\tmpeasi_se7wandb\3575d526-media/table/precision_recall_6_406932d6510339e5d061.table.json
+2021-12-07 15:38:25,910 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 5
+2021-12-07 15:38:25,910 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:25,910 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:25,910 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 5
+2021-12-07 15:38:25,910 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:25,910 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 5
+2021-12-07 15:38:25,910 INFO    SenderThread:13684 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-12-07 15:38:26,019 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,182 INFO    SenderThread:13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:26,182 INFO    SenderThread:13684 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\config.yaml
+2021-12-07 15:38:26,182 INFO    SenderThread:13684 [dir_watcher.py:finish():313] scan: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files
+2021-12-07 15:38:26,182 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\conda-environment.yaml conda-environment.yaml
+2021-12-07 15:38:26,182 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\config.yaml config.yaml
+2021-12-07 15:38:26,182 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\output.log output.log
+2021-12-07 15:38:26,182 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\requirements.txt requirements.txt
+2021-12-07 15:38:26,190 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-metadata.json wandb-metadata.json
+2021-12-07 15:38:26,190 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json wandb-summary.json
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\class_proportions_4_ebc9c37d478921f6aa30.table.json media\table\class_proportions_4_ebc9c37d478921f6aa30.table.json
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\confusion_matrix_2_91f8ebb96ad01ad439a4.table.json media\table\confusion_matrix_2_91f8ebb96ad01ad439a4.table.json
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\feature_importances_1_3527607989bd76067007.table.json media\table\feature_importances_1_3527607989bd76067007.table.json
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\precision_recall_6_406932d6510339e5d061.table.json media\table\precision_recall_6_406932d6510339e5d061.table.json
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [dir_watcher.py:finish():327] scan save: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\media\table\roc_5_d4bbe1ab515defd1276a.table.json media\table\roc_5_d4bbe1ab515defd1276a.table.json
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 6
+2021-12-07 15:38:26,206 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:26,206 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:26,206 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 6
+2021-12-07 15:38:26,206 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 6
+2021-12-07 15:38:26,206 INFO    SenderThread:13684 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-07 15:38:26,326 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,326 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:26,430 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,430 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:26,542 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,542 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:26,662 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,662 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:26,767 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,767 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:26,867 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,867 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:26,976 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:26,976 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:27,080 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:27,080 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:27,192 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:27,192 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:27,264 INFO    Thread-36 :13684 [upload_job.py:push():137] Uploaded file c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\wandb-summary.json
+2021-12-07 15:38:27,264 INFO    Thread-34 :13684 [upload_job.py:push():137] Uploaded file c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\output.log
+2021-12-07 15:38:27,264 INFO    Thread-35 :13684 [upload_job.py:push():137] Uploaded file c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\requirements.txt
+2021-12-07 15:38:27,272 INFO    Thread-33 :13684 [upload_job.py:push():137] Uploaded file c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\files\config.yaml
+2021-12-07 15:38:27,296 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:27,296 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:27,411 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:27,411 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:27,475 INFO    Thread-11 :13684 [sender.py:transition_state():342] send defer: 7
+2021-12-07 15:38:27,475 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:27,475 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 7
+2021-12-07 15:38:27,475 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:27,475 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 7
+2021-12-07 15:38:27,523 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:27,982 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 8
+2021-12-07 15:38:27,982 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:27,982 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:27,982 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 8
+2021-12-07 15:38:27,982 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:27,982 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 8
+2021-12-07 15:38:27,982 INFO    SenderThread:13684 [sender.py:transition_state():342] send defer: 9
+2021-12-07 15:38:27,982 DEBUG   SenderThread:13684 [sender.py:send():185] send: final
+2021-12-07 15:38:27,998 DEBUG   SenderThread:13684 [sender.py:send():185] send: footer
+2021-12-07 15:38:27,998 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: defer
+2021-12-07 15:38:27,998 INFO    HandlerThread:13684 [handler.py:handle_request_defer():147] handle defer: 9
+2021-12-07 15:38:27,998 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: defer
+2021-12-07 15:38:27,998 INFO    SenderThread:13684 [sender.py:send_request_defer():338] handle sender defer: 9
+2021-12-07 15:38:28,083 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-07 15:38:28,083 DEBUG   SenderThread:13684 [sender.py:send_request():199] send_request: poll_exit
+2021-12-07 15:38:28,083 INFO    SenderThread:13684 [file_pusher.py:join():182] waiting for file pusher
+2021-12-07 15:38:28,399 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: get_summary
+2021-12-07 15:38:28,414 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: sampled_history
+2021-12-07 15:38:28,418 DEBUG   HandlerThread:13684 [handler.py:handle_request():130] handle_request: shutdown
+2021-12-07 15:38:28,418 INFO    HandlerThread:13684 [handler.py:finish():731] shutting down handler
+2021-12-07 15:38:29,018 INFO    WriterThread:13684 [datastore.py:close():281] close: c:\Users\ADMIN\Desktop\Rahav\IIMB\Term5\MLOps\project\MLOps_project\notebooks\wandb\run-20211207_153802-15djww30\run-15djww30.wandb
+2021-12-07 15:38:29,413 INFO    SenderThread:13684 [sender.py:finish():1029] shutting down sender
+2021-12-07 15:38:29,413 INFO    SenderThread:13684 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-07 15:38:29,413 INFO    SenderThread:13684 [file_pusher.py:join():182] waiting for file pusher
+2021-12-07 15:38:29,413 INFO    MainThread:13684 [internal.py:handle_exit():78] Internal process exited
