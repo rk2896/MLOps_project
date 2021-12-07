@@ -64,9 +64,9 @@ git clone https://github.com/rk2896/MLOps_project.git
 ## References:
 TBD
 
-## The Team:
+## Team:
 1. Rahav Manoharan [GitHub](https://github.com/rahav-manoharan)
 2. Radha Krishnan SE [GitHub](https://github.com/rk2896)
 3. Harshit Dutt [GitHub](https://github.com/harshitdutt47)
 
-Please feel free to contact the team with any questions or if you are interested in contributing!
+Please feel free to contact anyone from the team with any questions/suggestions and/or if you are interested in contributing!
